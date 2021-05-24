@@ -70,10 +70,6 @@ git pull origin master
 
 *UIView*
 - `setFrame` - 为 `UIView` 设置 `frame`
-- `setFrame_QMUI` - QMUI 使用像素对齐的 `CGRectFlatMake()` 为 `UIView` 设置 `frame`
-- `setFrameX` - QMUI 使用 `CGRectSetX()` 修改 `UIView` 的 `frame.origin.x`
-- `setFrameY` - QMUI 使用 `CGRectSetY()` 修改 `UIView` 的 `frame.origin.y`
-- `setFrameXY` - QMUI 使用 `CGRectSetXY()` 修改 `UIView` 的 `frame.origin`
 - `sizeThatFits` - 为当前 view 创建 `sizeThatFits:` 方法
 - `layoutSubviews` - 展开 `layoutSubviews` 方法
 - `updateConstraints` - 展开 `updateConstraints` 方法
@@ -109,8 +105,6 @@ git pull origin master
 
 *UIViewController*
 - `initWithNib` - 展开 `initWithNibName:bundle:` 方法
-- `didInitialize` - 展开某些 QMUI 控件提供的 `didInitialize` 方法
-- `didInitializeWithStyle` - 展开 QMUICommonTableViewController 的 `didInitializeWithStyle:` 方法
 - `loadView` - 展开 `loadView` 方法
 - `viewDidLoad` - 展开 `viewDidLoad` 方法
 - `viewWillAppear` - 展开 `viewWillAppear:` 方法
@@ -121,9 +115,6 @@ git pull origin master
 - `updateViewConstraints` - 展开 `updateViewConstraints:` 方法
 - `addChildViewController` - 在当前 `UIViewController` 里添加 `childViewController`
 - `removeFromParentViewController` - 将 `childViewController` 从当前的 `UIViewController` 里移除
-- `initSubviews` - QMUI 展开 `initSubviews` 方法
-- `setupNavigationItems` - QMUI 重写 `QMUICommonViewController` 里的 `setupNavigationItems` 方法
-- `setupToolbarItems` - QMUI 重写 `QMUICommonViewController` 里的 `setupToolbarItems` 方法
 
 *Other*
 - `pragma` - 展开一个用于 Xcode 导航的 `#pragma mark -` 宏
